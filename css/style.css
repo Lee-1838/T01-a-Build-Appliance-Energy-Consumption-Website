@@ -1,0 +1,107 @@
+:root {
+  --primary: #f5a623;
+  --dark: #1a1a1a;
+  --light: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--dark);
+  color: var(--light);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #000;
+  border-bottom: 2px solid var(--primary);
+}
+
+#logo {
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: var(--light);
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-btn:hover {
+  color: var(--primary);
+}
+
+.nav-btn.active {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+main {
+  flex: 1;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+  animation: fadeIn 0.4s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1 {
+  color: var(--primary);
+}
+
+h2 {
+  color: var(--primary);
+  margin-top: 30px;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  font-size: 13px;
+  color: #aaa;
+  border-top: 1px solid #333;
+}
