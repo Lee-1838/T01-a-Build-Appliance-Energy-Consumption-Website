@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Appliance Energy Consumption</title>
+  <title>Home - Appliance Energy Consumption</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <img src="images/PowerIcon.png" alt="Power Logo" id="logo" onclick="showPage('home')">
+    <img src="images/PowerIcon.png" alt="Power Logo" id="logo" onclick="window.location.href='index.html'">
     <nav>
-      <button class="nav-btn active" data-page="home" onclick="showPage('home')">Home</button>
+      <button class="nav-btn" data-page="home" onclick="showPage('home')">Home</button>
       <button class="nav-btn" data-page="televisions" onclick="showPage('televisions')">Televisions</button>
       <button class="nav-btn" data-page="about" onclick="showPage('about')">About Us</button>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="page active">
+    <section id="home" class="page">
       <h1>Home</h1>
       <p>Welcome to the Appliance Energy Consumption website. This site provides information about how household appliances consume energy in the Australian market.</p>
       <p>Understanding appliance energy consumption helps households reduce electricity bills and lower carbon emissions. In Australia, appliances account for a significant portion of household energy use.</p>
@@ -27,26 +27,6 @@
         <li>Australia has energy rating labels to help consumers choose.</li>
         <li>Standby power can account for up to 10% of household electricity.</li>
       </ul>
-    </section>
-
-    <section id="televisions" class="page">
-      <h1>Televisions</h1>
-      <p>Televisions are one of the most common household appliances. Modern TVs vary widely in energy consumption depending on screen size, technology (LED, OLED, QLED), and usage patterns.</p>
-      <h2>Key Facts</h2>
-      <ul>
-        <li>Average TV energy consumption: 100–300 kWh per year.</li>
-        <li>Larger screens typically consume more energy.</li>
-        <li>Standby mode still uses power — turn off at the wall to save.</li>
-        <li>Australia's Energy Rating Label helps compare models.</li>
-      </ul>
-    </section>
-
-    <section id="about" class="page">
-      <h1>About Us</h1>
-      <p>This website was created as part of COS30045 Data Visualisation, Task T01(a).</p>
-      <p>Created by: <strong>[Lee Kok Kiong]</strong></p>
-      <p>Student ID: <strong>[104399870]</strong></p>
-      <p>This project demonstrates HTML, CSS, JavaScript and GitHub skills.</p>
     </section>
   </main>
 
