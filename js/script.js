@@ -1,17 +1,25 @@
+const PAGE_URLS = {
+  home: 'index.html',
+  televisions: 'televisions.html',
+  about: 'about.html'
+};
+
 function showPage(pageId) {
-  // Hide all pages
-  document.querySelectorAll('.page').forEach(page => {
-    page.classList.remove('active');
-  });
-
-  // Show target page
-  const target = document.getElementById(pageId);
-  if (target) {
-    target.classList.add('active');
+  const url = PAGE_URLS[pageId];
+  if (url) {
+    window.location.href = url;
   }
-
-  // Update nav button highlight
-  document.querySelectorAll('.nav-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.page === pageId);
-  });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const currentFile = window.location.pathname.split('/').pop() || 'index.html';
+
+  const currentPage = Object.keys(PAGE_URLS).find(
+    key => PAGE_URLS[key] === currentFile
+  );
+
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    const isActive = btn.dataset.page === currentPage;
+    btn.classList.toggle('active', isActive);
+  });
+});
