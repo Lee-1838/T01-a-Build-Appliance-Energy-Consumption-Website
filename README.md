@@ -38,7 +38,7 @@ Link to Miro board: [PASTE YOUR MIRO LINK HERE]
 
 ### Storyboard
 
-Link to Miro board: [PASTE YOUR MIRO LINK HERE]
+Link to Miro board: https://miro.com/app/board/uXjVHjBLkWU=/?share_link_id=982331151102
 
 The storyboard below outlines the user experience of the Televisions page.
 It follows a simple narrative: introduce the audience, answer six questions
