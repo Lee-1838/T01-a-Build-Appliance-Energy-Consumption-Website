@@ -1,4 +1,4 @@
-# T01(a) + T03 - Appliance Energy Consumption Website
+# T01 + T02 + T03 - Appliance Energy Consumption Website
 
 ## Live Site
 https://t01-a-build-appliance-energy-consum-ten.vercel.app/
