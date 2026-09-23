@@ -71,11 +71,6 @@ main {
 }
 
 .page {
-  display: none;
-}
-
-.page.active {
-  display: block;
   animation: fadeIn 0.4s;
 }
 
@@ -104,4 +99,63 @@ footer {
   font-size: 13px;
   color: #aaa;
   border-top: 1px solid #333;
+}
+
+.intro {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #ddd;
+  border-left: 4px solid var(--primary);
+  padding-left: 15px;
+  margin-bottom: 40px;
+}
+
+.story-block {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #333;
+}
+
+.story-block:last-of-type {
+  border-bottom: none;
+}
+
+.story-block h2 {
+  margin-bottom: 15px;
+}
+
+.chart {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+}
+
+.story-block p {
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.conclusion {
+  background: #222;
+  border-left: 4px solid var(--primary);
+  padding: 20px 25px;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.conclusion h2 {
+  margin-top: 0;
+}
+
+.conclusion ul {
+  line-height: 1.9;
+}
+
+.conclusion p {
+  line-height: 1.7;
+  color: #ddd;
 }
