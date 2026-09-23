@@ -34,9 +34,6 @@ practical answers about what is on the market and how to choose an energy-effici
 - Star rating is not strongly linked to screen size.
 
 ### Storyboard
-Link to Miro board: [PASTE YOUR MIRO LINK HERE]
-
-### Storyboard
 
 Link to Miro board: https://miro.com/app/board/uXjVHjBLkWU=/?share_link_id=982331151102
 
