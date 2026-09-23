@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Televisions - Appliance Energy Consumption</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/PowerIcon.png" alt="Power Logo" id="logo" onclick="showPage('home')">
+    <nav>
+      <button class="nav-btn" data-page="home" onclick="showPage('home')">Home</button>
+      <button class="nav-btn" data-page="televisions" onclick="showPage('televisions')">Televisions</button>
+      <button class="nav-btn" data-page="about" onclick="showPage('about')">About Us</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="televisions" class="page">
+      <h1>Televisions in Australia: What the Data Tells Us</h1>
+
+      <p class="intro">
+        If you're shopping for a new TV, the sheer number of options can be overwhelming.
+        This data story is written for <strong>everyday consumers in Australia</strong> who want to
+        understand what's actually on the market — and how to choose a TV that won't
+        send their electricity bill through the roof. We used the Australian GEMS
+        product database to answer four simple questions.
+      </p>
+
+      <div class="story-block">
+        <h2>1. What screen technologies are available?</h2>
+        <img src="images/q1-screen-tech.png" alt="Distribution of TV screen technologies in Australia" class="chart">
+        <p>
+        The Australian market is dominated by <strong>LCD (LED)</strong> televisions, which
+        account for the vast majority of registered models (3,792 out of around 4,580).
+        Older <strong>LCD</strong> and <strong>OLED</strong> screens are far less common.
+        For consumers, this means that when you walk into a store, almost every TV you
+        see will be an LED-backlit LCD — OLED remains a niche option.
+        </p>
+      </div>
+
+      <div class="story-block">
+        <h2>2. What screen sizes are most common?</h2>
+        <img src="images/q2-screen-size.png" alt="Most common TV screen sizes in Australia" class="chart">
+        <p>
+        The most frequently registered screen sizes are <strong>65 inches</strong> (777 models)
+        and <strong>55 inches</strong> (762 models), followed by <strong>75 inches</strong> (632).
+        Mid-sized screens such as 43 and 49 inches are still present, while smaller sizes
+        like 24 and 32 inches are less common. This suggests that Australian households
+        are increasingly opting for larger screens — which makes the next question even
+        more important.
+        </p>
+      </div>
+
+      <div class="story-block">
+        <h2>3. Which screen technology uses the least power?</h2>
+        <img src="images/q4-power-tech.png" alt="Average power consumption by screen technology" class="chart">
+        <p>
+        When we compare median power consumption, <strong>LCD</strong> screens use the least
+        power on average (71.35), followed by <strong>LCD (LED)</strong> at 106, while
+        <strong>OLED</strong> screens have the highest median consumption at 112.70.
+        Interestingly, the most common technology on the market — LCD (LED) — is not
+        the most efficient. If saving energy is your priority, an older LCD model may
+        actually use less power, though it may lack the picture quality of newer screens.
+        </p>
+      </div>
+
+      <div class="story-block">
+        <h2>4. Does a bigger screen always mean more power?</h2>
+        <img src="images/q5-size-power.png" alt="Relationship between screen size and power consumption" class="chart">
+        <p>
+        The scatter plot shows a clear <strong>upward trend</strong>: as screen size increases,
+        average power consumption tends to rise. However, the relationship is not perfectly
+        linear — at any given screen size, there is a wide spread of power values. For
+        example, around 200 cm, some models use under 100 W while others use over 400 W.
+        This means <strong>size matters, but it isn't the only factor</strong>. Two TVs of
+        the same size can have very different power ratings depending on their technology
+        and efficiency.
+        </p>
+      </div>
+
+    <!-- Conclusion -->
+      <div class="conclusion">
+        <h2>What this means for you</h2>
+        <ul>
+            <li><strong>LCD (LED)</strong> is by far the most common technology on the Australian market.</li>
+            <li><strong>65" and 55"</strong> are the most common sizes — but bigger screens tend to use more power.</li>
+            <li>Surprisingly, <strong>older LCD models have the lowest median power consumption</strong>, followed by LCD (LED) and OLED.</li>
+            <li>At the same screen size, power use can vary hugely — always check the <strong>energy rating label</strong>.</li>
+        </ul>
+        <p>
+            In short: the data suggests that size and technology both matter, but the
+            biggest variation happens <em>within</em> each size category. Comparing energy
+            ratings is more useful than relying on screen size alone.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 [Lee Kok Kiong]. GenAI Acknowledgement: Parts of this code were generated with the assistance of GitHub Copilot / ChatGPT. All code has been reviewed and understood.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
