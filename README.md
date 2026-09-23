@@ -21,13 +21,17 @@ practical answers about what is on the market and how to choose an energy-effici
 ### Questions answered
 1. What screen technologies are available in Australia?
 2. What screen sizes are most common?
-3. Which screen technology uses the least power?
-4. Does a bigger screen always mean more power?
+3. Which brands have the greatest number of different models?
+4. Which screen technology uses the least power?
+5. Does a bigger screen always mean more power?
+6. Is there a relationship between star rating and screen size?
 
 ### Key findings
 - LED-backlit LCD dominates the market, but older LCD models actually have the lowest median power consumption.
 - 65" and 55" are the most common screen sizes.
+- KOGAN, LG and Samsung offer the widest range of models.
 - Power consumption rises with screen size, but varies a lot between models of the same size.
+- Star rating is not strongly linked to screen size.
 
 ### Storyboard
 Link to Miro board: [PASTE YOUR MIRO LINK HERE]
