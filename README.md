@@ -36,6 +36,33 @@ practical answers about what is on the market and how to choose an energy-effici
 ### Storyboard
 Link to Miro board: [PASTE YOUR MIRO LINK HERE]
 
+### Storyboard
+
+Link to Miro board: [PASTE YOUR MIRO LINK HERE]
+
+The storyboard below outlines the user experience of the Televisions page.
+It follows a simple narrative: introduce the audience, answer six questions
+with visualisations, then end with practical advice.
+
+| # | Section | Visualisation | Key message |
+|---|---------|---------------|-------------|
+| 1 | Audience | — | Everyday consumers in Australia shopping for a new TV; not data experts, want clear and practical answers. |
+| 2 | Q1 — What screen technologies are available? | Bar chart (LCD / LCD (LED) / OLED) | LCD (LED) dominates the market with 3,792 models; OLED and older LCD are far less common. |
+| 3 | Q2 — What screen sizes are most common? | Bar chart (65" / 55" / 75" / 85" …) | 65" (777) and 55" (762) are the most common sizes; 75" is third. |
+| 4 | Q3 — Which brands have the most models? | Bar chart (KOGAN / LG / SAMSUNG ELECTRONICS / SAMSUNG / HISENSE …) | KOGAN (807), LG (723) and SAMSUNG ELECTRONICS (699) lead; choice is concentrated in a few brands. |
+| 5 | Q4 — Which screen technology uses the least power? | Bar chart (LCD / LCD (LED) / OLED) | Older LCD has the lowest median power use (71.35), followed by LCD (LED) at 106 and OLED at 112.70. |
+| 6 | Q5 — Does a bigger screen always mean more power? | Scatter plot (screensize vs Avg_mode_power) | Power use rises with screen size overall, but varies widely between models of the same size. |
+| 7 | Q6 — Is star rating related to screen size? | Scatter plot (screensize vs Star Rating Index) | No clear relationship; star ratings are spread between 2 and 7 at almost every size. |
+| 8 | Conclusion — What this means for you | — | Size and technology both matter, but the biggest variation is within each size category. Compare energy ratings, not just screen size. |
+
+**Narrative flow:**
+Audience → Market overview (Q1, Q2, Q3) → Energy efficiency (Q4, Q5, Q6) → Practical advice.
+
+**Design notes:**
+- Each question is presented as a separate block with a chart and a short explanatory paragraph.
+- Charts are screenshots generated in KNIME during T02, annotated with clear titles and captions.
+- The page ends with a bullet-point summary aimed at helping consumers make a decision.
+
 ---
 
 ## About the Data
