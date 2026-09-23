@@ -83,4 +83,4 @@ highlighting, hover effects). I now understand how the `classList.toggle` method
 works for navigation state, and how to structure a data story for a non-expert audience.
 
 ## Author
-[Lee Kok Kiong] - [104399870]
+Lee Kok Kiong - 104399870
